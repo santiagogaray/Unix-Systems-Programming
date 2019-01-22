@@ -1,0 +1,10 @@
+Things to worry about:
+
+In my version only one file is opened at the same time.
+A buffer that holds each possible directory found.
+Once the directory is completely listed it is closed.
+Then the function starts its recursive loop with each of
+the direcories stored. Maybe a possible bug in my program
+(between others) could raise from run-outs of memory in
+large directories, but it's seemed to work pretty well at
+least in the /usr one.

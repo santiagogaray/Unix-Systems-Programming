@@ -1,0 +1,52 @@
+/**
+ **	splitline ( parse a line into an array of strings )
+ **		allocates strings in arrays of defined lengh
+ **		for use in vars-parsing procedure.
+ **/
+
+/*
+ *	cmdline has a string of white-space separated tokens
+ *	put the addresses of the tokens in the array argv[]
+ *	put their number in *argcp and do not put more than max 
+ *	in argv or suffer dire consequences!
+ *	returns FALSE on too many args or zero args.  TRUE for ok stuff
+ */
+splitline(char * cmdline, int *  argcp, char * argv[], int max)
+{
+	int i = 0, retval = FALSE ;
+
+	char *cmdp = cmdline ;
+	char * tok, *tokp;
+
+	while ( i<=max ){			/* still room? 		*/
+								/* skip leading space	*/
+		while ( *cmdp == ' ' || *cmdp == '\t' )
+			cmdp++;
+								/* at end of string?	*/
+		if ( *cmdp == '\0' )
+			break;
+
+		tok = malloc( MAXTOKENLENGTH ); /* set a new larger container */
+							
+		strcpy(tok, cmdp);	/* record from here to the end of string */
+		tokp = tok;			/* work in new string */
+							/* move to end of word	*/
+		cmdp++;
+		while ( *++tokp && *tokp != ' ' && *tokp != '\t' )
+			cmdp++;			/*update original pointer also */
+
+		if ( *tokp != '\0' )	/* past end of word	*/
+			*tokp++ = '\0';		/* terminate string	*/
+
+		/* set args pointer and bump counter */
+		argv[i++] = tok ;
+	}
+	if ( i > max )
+		printf("Too many args\n");
+	else if ( i > 0 ){
+		argv[i] = NULL ;		/* mark end of array	*/
+		*argcp = i;				/* and store argc	*/
+		retval = TRUE ;			/* say ok		*/
+	}
+	return retval ;
+}

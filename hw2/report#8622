@@ -1,0 +1,85 @@
+ice% ~lib215/hw/lsr1ff/test.r1ff                                                
+There is no program here called lsr1ff.                                         
+What program should I test (press Return to quit)? ls4                          
+Testing /home02/s/g/sgaray/cscie215/hw2/ls4 at  Wed Feb 28 00:30:35 EST 
+2001    
+-rwx------   1 sgaray   extdeg     24576 Feb 28 00:21 
+/home02/s/g/sgaray/cscie24
+                                                                                
+                Will use this directory for test results:                       
+                /home02/s/g/sgaray/cscie215/hw2/_testdir                        
+                                                                                
+                Test 1: Default action, no args :                               
+                  Directory: /tmp                                               
+                       Args:                                                    
+                     Result: OK                                                 
+                                                                                
+                Test 2: List of filenames :                                     
+                  Directory: /dev                                               
+                       Args: tty zero null kmem                                 
+                     Result: OK                                                 
+                                                                                
+                Test 3: One directory name :                                    
+                  Directory: /home02/s/g/sgaray/cscie215/hw2                    
+                       Args: /etc                                               
+                     Result: NOT OK                                             
+                standard output differs                                         
+                Details are in _testdir                                         
+                Files are:                                                      
+                 3.diffs.stdout                                                 
+                                                                                
+        Continue with tests (y/n)? y                                            
+                                                                                
+                Test 4: Multiple directory names :                              
+                  Directory: /home02/s/g/sgaray/cscie215/hw2                    
+                       Args: /etc /tmp /usr/lib                                 
+                     Result: NOT OK                                             
+                standard output differs                                         
+                Details are in _testdir                                         
+                Files are:                                                      
+                 4.diffs.stdout                                                 
+                                                                                
+        Continue with tests (y/n)? y                                            
+                                                                                
+                Test 5: Mixed dirs and files :                                  
+                  Directory: /home02/s/g/sgaray/cscie215/hw2                    
+                       Args: /usr/bin /etc/passwd /dev/tty                      
+                     Result: NOT OK                                             
+                standard output differs                                         
+                Details are in _testdir                                         
+                Files are:                                                      
+                 5.diffs.stdout                                                 
+                                                                                
+        Continue with tests (y/n)? y                                            
+                                                                                
+                Test 6: Really BIG directory tree :                             
+                  Directory: /usr                                               
+                       Args: local                                              
+                     Result: NOT OK                                             
+                standard output differs                                         
+                Details are in _testdir                                         
+                Files are:                                                      
+                 6.diffs.stdout                                                 
+                                                                                
+        Continue with tests (y/n)? y                                            
+                                                                                
+                Test 6: Non-existent items :                                    
+                  Directory: /                                                  
+                       Args: no-such-file etc/no-such-file                      
+                     Result: NOT OK                                             
+                 standard error differs                                         
+                Details are in _testdir                                         
+                Files are:                                                      
+                 6.diffs.stderr                                                 
+                                                                                
+        Continue with tests (y/n)? y                                            
+                                                                                
+                Test 7: Testdir1 :                                              
+                  Directory: /home/l/i/lib215/hw/lsr1ff                         
+                       Args: tdir1                                              
+                     Result: OK                                                 
+                                                                                
+                Test 8: Testdir2 :                                              
+                  Directory: /home/l/i/lib215/hw/lsr1ff                         
+                       Args: tdir2                                              
+                     Result: OK       

@@ -1,0 +1,8 @@
+A=AaAAAAA
+if cd ..
+then
+	A=TRUE
+else
+	A=FLASE
+fi
+$A

@@ -1,0 +1,62 @@
+Script started on Wed Apr  4 15:31:24 2001
+ice% exitnd[Kscript[9Dgcc -Wall -lcurses alarmlib.c pong.c
+alarmlib.c:22: warning: return-type defaults to `int'
+alarmlib.c: In function `set_ticker':
+alarmlib.c:36: warning: implicit declaration of function `printf'
+alarmlib.c:24: warning: unused variable `old'
+alarmlib.c:40: warning: control reaches end of non-void function
+alarmlib.c: At top level:
+alarmlib.c:45: warning: return-type defaults to `int'
+alarmlib.c: In function `millisleep':
+alarmlib.c:48: warning: implicit declaration of function `pause'
+alarmlib.c:49: warning: control reaches end of non-void function
+In file included from /usr/local/gcc-2.95.1/lib/gcc-lib/alphaev6-dec-osf4.0f/2.95.1/include/stdarg.h:36,
+                 from /usr/local/include/curses.h:73,
+                 from pong.c:1:
+/usr/local/gcc-2.95.1/lib/gcc-lib/alphaev6-dec-osf4.0f/2.95.1/include/va-alpha.h:36: warning: redefinition of `va_list'
+/usr/local/gcc-2.95.1/lib/gcc-lib/alphaev6-dec-osf4.0f/2.95.1/include/va_list.h:7: warning: `va_list' previously declared here
+pong.c:35: warning: return-type defaults to `int'
+pong.c: In function `main':
+pong.c:38: warning: implicit declaration of function `set_up'
+pong.c:49: warning: implicit declaration of function `set_ticker'
+pong.c:51: warning: control reaches end of non-void function
+pong.c: At top level:
+pong.c:62: warning: return-type defaults to `int'
+pong.c: In function `set_up':
+pong.c:70: warning: implicit declaration of function `time'
+pong.c:95: warning: implicit declaration of function `display_court'
+pong.c:98: warning: implicit declaration of function `put_a_char'
+pong.c:101: warning: implicit declaration of function `put_col_chars'
+pong.c:114: warning: control reaches end of non-void function
+pong.c: At top level:
+pong.c:122: warning: return-type defaults to `int'
+pong.c: In function `display_court':
+pong.c:123: warning: implicit declaration of function `put_row_chars'
+pong.c:127: warning: control reaches end of non-void function
+pong.c: In function `on_tick':
+pong.c:140: warning: implicit declaration of function `paddle_move'
+pong.c:142: warning: implicit declaration of function `ball_move'
+pong.c:144: warning: implicit declaration of function `bounce_or_lose'
+pong.c: At top level:
+pong.c:170: warning: return-type defaults to `int'
+pong.c: In function `paddle_move':
+pong.c:172: warning: `return' with no value, in function returning non-void
+pong.c:190: warning: control reaches end of non-void function
+pong.c: At top level:
+pong.c:202: warning: return-type defaults to `int'
+pong.c:240: warning: return-type defaults to `int'
+pong.c:274: warning: return-type defaults to `int'
+pong.c: In function `put_a_char':
+pong.c:278: warning: control reaches end of non-void function
+pong.c: At top level:
+pong.c:286: warning: return-type defaults to `int'
+pong.c: In function `put_col_chars':
+pong.c:292: warning: control reaches end of non-void function
+pong.c: At top level:
+pong.c:300: warning: return-type defaults to `int'
+pong.c: In function `put_row_chars':
+pong.c:306: warning: control reaches end of non-void function
+ice% exit
+exit
+
+script done on Wed Apr  4 15:31:31 2001

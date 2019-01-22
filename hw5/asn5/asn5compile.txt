@@ -1,0 +1,48 @@
+
+
+ice% gcc -Wall varlib.c smsh_parsers.c smsh_driver.c -o smsh
+smsh_driver.c: In function `main':
+smsh_driver.c:59: warning: implicit declaration of function `free'
+smsh_driver.c: In function `builtInCommand':
+smsh_driver.c:178: warning: implicit declaration of function `validateIdent'
+smsh_driver.c:194: warning: implicit declaration of function `atoi'
+smsh_driver.c:199: warning: implicit declaration of function `malloc'
+smsh_driver.c:199: warning: assignment makes pointer from integer without a cast
+smsh_driver.c:206: warning: implicit declaration of function `chdir'
+smsh_driver.c: In function `execute':
+smsh_driver.c:231: warning: implicit declaration of function `fork'
+smsh_driver.c:240: warning: implicit declaration of function `execvp'
+smsh_driver.c:245: warning: implicit declaration of function `wait'
+ice%
+ice% smsh
+> WORD=Word
+> WORDS=$Word$Word$Word
+Word: Variable not defined.
+> exit
+ice% smsh
+> WORD=Word
+> WORDS=$WORD$WORD
+> WORDS=$WORDS$WORDS$WORDS
+> echo \$WORD=$WORDS
+$WORD=WordWordWordWordWordWord
+> cd foo
+foo: No such file or directory.
+> ls ../hw5
+asn5script.txt  script.txt      smsh            smsh_parsers.c  varlib.h
+dirs            script1.txt     smsh_driver.c   ssh
+old             script3         smsh_driver.h   varlib.c
+> read DIR
+old
+> ls -l DIR
+ls: DIR: No such file or directory
+> ls -l $DIR
+total 48
+-rwx------   1 sgaray   extdeg      32768 Apr 12 17:55 sh4
+-rw-r--r--   1 sgaray   extdeg         33 Apr 12 17:08 smsh.h
+-rw-r--r--   1 sgaray   extdeg       2422 Apr 12 17:57 smsh4.c
+-rw-r--r--   1 sgaray   extdeg       3774 Apr 25 12:41 smsh_parsers.c
+-rw-r--r--   1 sgaray   extdeg       1202 Apr 12 17:16 splitline.c
+-rw-r--r--   1 sgaray   extdeg       4416 Apr 12 17:06 varlib.c
+-rw-r--r--   1 sgaray   extdeg        216 Apr 12 17:06 varlib.h
+> exit
+ice%                                                                           

@@ -1,0 +1,6 @@
+Script started on Thu Mar 15 21:17:37 2001
+ice% gcc sttyl.c -o sttyl
+ice% exit
+exit
+
+script done on Thu Mar 15 21:18:00 2001

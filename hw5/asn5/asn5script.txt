@@ -1,0 +1,7 @@
+FIVE=5
+Y=3
+expr $FIVE + $Y
+expr $FIVE$Y - 1
+echo $Y/$Y.$FIVE
+/bin/echo \$Y\\$FIVE$FIVE
+

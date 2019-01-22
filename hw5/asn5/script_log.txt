@@ -1,0 +1,50 @@
+ice% ~lib215/hw/smsh/test.smsh
+  Testing ./smsh as of Wed Apr 25 16:31:28 EDT 2001
+-rwx------   1 sgaray   extdeg      32768 Apr 25 16:31 ./smsh
+
+        Test 1: Does the program read commands from a script?
+                OK
+        Test 2: Does cd work correctly?
+                /tmp
+/tmp
+cd works when the directory exists
+                /bad.directory: No such file or directory.
+cd detects bad directories
+        Test 3: Does the shell do variable substitution correctly?
+                and ignore dollar signs when asked?
+                OK
+        Test 4: Does the shell read in variables correctly?
+                OK
+        Test 5a: Does the if command work?
+                OK
+        Test 5b: Does the if detect missing thens ?
+                error: unexpected else statement.
+OK
+        Test 5c: Does the if command find unexpected EOFS?
+                root:*:0:1:system PRIVILEGED account:/:/bin/sh
+this system has a root login
+that is a good thing
+error: unexpected EOF
+OK
+        Test 5d: Does the if catch missing ifs?
+                root:*:0:1:system PRIVILEGED account:/:/bin/sh
+this system has a root login
+that is a good thing
+something is wrong here
+there is no login for root
+error: unexpected then statement.
+error: unexpected else statement.
+error: unexpected fi statement.
+OK
+        Test 6: Does the shell process the exit built-in ok?
+                OK
+        Test 7: A manual test
+
+        Does your shell reject assignment statements of the
+        form
+                9xyz=tuna
+        or      x.y=fun
+
+         That is, assignments to names that are not legal
+        variable identifiers
+ice%  

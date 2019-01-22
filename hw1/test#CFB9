@@ -1,0 +1,122 @@
+Script started on Wed Feb 14 12:15:43 2001
+ice% llast ubice% l[Past shutdownice% l[4hl[4last ub[Kice% [Kllast ubice% l[Past shutdownice% l[4hl[4last shutdownice% l[Past shutdownice% l[4hl[4last shutdownub[Kice% l[Past ubyb[4hl[4last yb[Kcd hw1cscie215dcie215scie215hw1[Kice% llast[K ybice% l[Past ybub[4hl[4last ubshutdownice% l[Past shutdownice% l[4hl[4last shutdownice% l[Past shutdownice% l[4hl[4last ub[Kice% [Kllast ubice% [Kllast -f wtmp.shutdown shutdown
+shutdown  ~                             Fri Feb  2 15:25
+ice% 
+ice% llast -f wtmp.shutdown shutdown[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcrash tty[Kyp2
+molay     ttyp2                         Sat Feb  3 13:46   system crash
+lib215    ttyp2                         Sat Feb  3 13:45 - 13:45  (00:00)
+marchesi  ttyp2                         Thu Feb  1 15:05 - 15:06  (00:00)
+jafowler  ttyp2                         Thu Feb  1 10:56 - 11:21  (00:24)
+chang8    ttyp2                         Wed Jan 31 21:24 - 21:43  (00:19)
+tserkovn  ttyp2                         Wed Jan 31 12:36 - 17:07  (04:31)
+goswami   ttyp2                         Mon Jan 29 19:39 - 19:39  (00:00)
+ice% llast -f wtmp.crash ttyp2[K[K[K[K[Kp3
+lib215    ttyp3                         Sat Feb  3 13:47   system crash
+marchesi  ttyp3                         Thu Feb  1 15:05 - 15:06  (00:00)
+tserkovn  ttyp3                         Wed Jan 31 13:19 - 14:05  (00:46)
+romano    ttyp3                         Tue Jan 30 10:06 - 10:06  (00:00)
+ice% 
+ice% llast -f wtmp.crash p3[K[K[K[K[K[K[Klogin crash ttyp2shutdown shutdownice% llast ub[K-f wtmp.shutdown shutdowncrash ttyp2[Kp3[Kice% [Kllast -f wtmp.crash p3ttyp2shutdown shutdownice% llast ub[K-f wtmp.shutdown shutdowncrash ttyp2[Kp3[Kice% [Kllast -f wtmp.crash p3[K[K[K[K[K[K[Klogin u7
+ice% llast -f wtmp.login u7[K[Kp2
+molay     ttyp2                         Sat Feb  3 13:55   still logged in
+cokeefe   ttyp2                         Fri Feb  2 14:22 - 22:29  (08:06)
+molay     ttyp2                         Thu Feb  1 19:24 - 21:03  (01:38)
+molay     ttyp2                         Thu Feb  1 18:12 - 18:54  (00:42)
+avora     ttyp2                         Thu Feb  1 15:57 - 16:26  (00:28)
+sasaki    ttyp2                         Thu Feb  1 11:30 - 11:47  (00:17)
+molay     ttyp2                         Wed Jan 31 17:19 - 17:57  (00:38)
+gilboa    ttyp2                         Wed Jan 31 13:23 - 13:23  (00:00)
+molay     ttyp2                         Tue Jan 30 17:32 - 19:17  (01:45)
+bcui      ttyp2                         Mon Jan 29 13:41 - 15:25  (01:43)
+ice% llast -f wtmp.login p2[K[Kttyp1
+molay     ttyp1                         Sat Feb  3 13:55   still logged in
+sharvey   ttyp1                         Sat Feb  3 08:12 - 09:06  (00:53)
+cokeefe   ttyp1                         Fri Feb  2 13:32 - 22:29  (08:56)
+cokeefe   ttyp1                         Fri Feb  2 13:22 - 13:31  (00:09)
+cokeefe   ttyp1                         Fri Feb  2 13:21 - 13:21  (00:00)
+wgreenl   ttyp1                         Fri Feb  2 13:09 - 13:15  (00:06)
+cage      ttyp1                         Fri Feb  2 12:11 - 12:22  (00:11)
+warshall  ttyp1                         Fri Feb  2 12:03 - 12:10  (00:07)
+jfiore    ttyp1                         Fri Feb  2 11:02 - 12:00  (00:57)
+zhang13   ttyp1                         Fri Feb  2 10:37 - 10:53  (00:16)
+zhang13   ttyp1                         Fri Feb  2 10:20 - 10:32  (00:11)
+tower     ttyp1                         Thu Feb  1 21:48 - 22:40  (00:52)
+molay     ttyp1                         Thu Feb  1 19:24 - 21:03  (01:38)
+molay     ttyp1                         Thu Feb  1 18:12 - 18:54  (00:42)
+avora     ttyp1                         Thu Feb  1 15:53 - 16:26  (00:32)
+ryu       ttyp1                         Thu Feb  1 11:52 - 11:53  (00:00)
+sasaki    ttyp1                         Thu Feb  1 08:41 - 11:47  (03:06)
+glee      ttyp1                         Wed Jan 31 22:51 - 23:23  (00:32)
+molay     ttyp1                         Wed Jan 31 17:19 - 18:01  (00:42)
+gilboa    ttyp1                         Wed Jan 31 13:21 - 13:28  (00:06)
+gilboa    ttyp1                         Wed Jan 31 13:16 - 13:21  (00:04)
+isaacs    ttyp1                         Wed Jan 31 13:01 - 13:03  (00:02)
+sasaki    ttyp1                         Wed Jan 31 08:53 - 12:19  (03:26)
+ara       ttyp1                         Tue Jan 30 23:16 - 23:25  (00:08)
+ara       ttyp1                         Tue Jan 30 22:57 - 23:16  (00:18)
+molay     ttyp1                         Tue Jan 30 17:31 - 19:17  (01:45)
+jljames   ttyp1                         Tue Jan 30 14:11 - 14:59  (00:47)
+root      ttyp1        admin-31.fas.har Tue Jan 30 12:56 - 13:00  (00:03)
+mihelich  ttyp1                         Tue Jan 30 12:16 - 12:34  (00:18)
+jfiore    ttyp1                         Mon Jan 29 23:19 - 23:47  (00:28)
+bcui      ttyp1                         Mon Jan 29 22:14 - 22:28  (00:14)
+bcui      ttyp1                         Mon Jan 29 21:14 - 21:56  (00:41)
+dchoi     ttyp1                         Mon Jan 29 16:57 - 17:23  (00:25)
+dchoi     ttyp1                         Mon Jan 29 16:50 - 16:57  (00:06)
+bcui      ttyp1                         Mon Jan 29 13:32 - 15:25  (01:52)
+sdraper   ttyp1                         Mon Jan 29 10:10 - 10:50  (00:40)
+cloud     ttyp1                         Mon Jan 29 04:34 - 05:05  (00:30)
+cloud     ttyp1                         Mon Jan 29 04:13 - 04:34  (00:20)
+ice% 
+ice% llast -f wtmp.login ttyp1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K ub
+ice% llast ub[K[Kp3
+ice% llast p3[K[Kp5[K[Kp1
+mtfox     ttyp1        roam153-196.stud Wed Feb 14 10:04   still logged in
+mtfox     ttyp1        roam153-196.stud Wed Feb 14 10:04 - 10:04  (00:00)
+krych     ttyp1        140.247.175.168  Wed Feb 14 09:48 - 10:04  (00:15)
+mandzy    ttyp1        roam153-186.stud Wed Feb 14 09:44 - 09:48  (00:03)
+mandzy    ttyp1        roam153-186.stud Wed Feb 14 09:44 - 09:44  (00:00)
+rgulraj   ttyp1        roam155-129.stud Wed Feb 14 09:28 - 09:44  (00:16)
+rgulraj   ttyp1        roam155-129.stud Wed Feb 14 09:28 - 09:28  (00:00)
+hoelting  ttyp1        roam135-213.stud Wed Feb 14 09:25 - 09:28  (00:02)
+hoelting  ttyp1        roam135-213.stud Wed Feb 14 09:25 - 09:25  (00:00)
+scrodden  ttyp1        roam145-92.stude Wed Feb 14 09:25 - 09:25  (00:00)
+scrodden  ttyp1        roam145-92.stude Wed Feb 14 09:25 - 09:25  (00:00)
+jzebrows  ttyp1        dsl254-113-026-n Wed Feb 14 09:18 - 09:24  (00:05)
+koss      ttyp1        roam185-145.stud Wed Feb 14 08:50 - 09:18  (00:27)
+acjones   ttyp1        roam183-119.stud Wed Feb 14 05:17 - 08:50  (03:32)
+jdmiller  ttyp1        roam81-138.stude Wed Feb 14 03:57 - 05:14  (01:16)
+bechtol   ttyp1        roam87-213.stude Wed Feb 14 03:54 - 03:57  (00:02)
+araman    ttyp1        roam143-220.stud Wed Feb 14 03:52 - 03:52  (00:00)
+araman    ttyp1        roam143-220.stud Wed Feb 14 03:43 - 03:52  (00:08)
+chen22    ttyp1        roam67-117.stude Tue Feb 13 21:00 - 03:43  (06:43)
+chen22    ttyp1        roam67-117.stude Tue Feb 13 21:00 - 21:00  (00:00)
+jalcruz   ttyp1        net-14153.fas.ha Tue Feb 13 19:53 - 20:59  (01:06)
+jalcruz   ttyp1        net-14153.fas.ha Tue Feb 13 19:53 - 19:53  (00:00)
+guico     ttyp1        roam179-75.stude Tue Feb 13 19:50 - 19:53  (00:02)
+eyoo      ttyp1        roam167-172.stud Tue Feb 13 16:11 - 16:12  (00:00)
+eyoo      ttyp1        roam167-172.stud Tue Feb 13 16:11 - 16:11  (00:00)
+rwu       ttyp1        is05.fas.harvard Tue Feb 13 12:17 - 16:11  (03:53)
+judson    ttyp1        meklab.med.harva Tue Feb 13 12:15 - 12:17  (00:01)
+gribetz   ttyp1        roam187-129.stud Tue Feb 13 12:14 - 12:14  (00:00)
+gribetz   ttyp1        roam187-129.stud Tue Feb 13 12:14 - 12:14  (00:00)
+pham      ttyp1        sbr11.sbrco.com  Tue Feb 13 12:09 - 12:13  (00:03)
+mahlfont  ttyp1        sbr11.sbrco.com  Tue Feb 13 12:03 - 12:05  (00:02)
+adelvecc  ttyp1        roam187-24.stude Tue Feb 13 12:01 - 12:01  (00:00)
+adelvecc  ttyp1        roam187-24.stude Tue Feb 13 12:01 - 12:01  (00:00)
+agay      ttyp1        140.247.125.197  Tue Feb 13 11:59 - 12:00  (00:00)
+teplitz   ttyp1        otto-acquipc1.fa Tue Feb 13 11:57 - 11:59  (00:01)
+gtrombly  ttyp1                         Tue Feb 13 11:48 - 11:56  (00:08)
+ciccio    ttyp1        roam193-219.stud Tue Feb 13 11:48 - 11:48  (00:00)
+ciccio    ttyp1        roam193-219.stud Tue Feb 13 11:48 - 11:48  (00:00)
+bryson    ttyp1        roam69-130.stude Tue Feb 13 09:44 - 11:47  (02:02)
+aalang    ttyp1        roam145-175.stud Tue Feb 13 03:54 - 09:44  (05:50)
+aalang    ttyp1        roam145-175.stud Tue Feb 13 03:54 - 03:54  (00:00)
+ungar     ttyp1        roam179-133.stud Tue Feb 13 03:49 - 03:50  (00:00)
+kinen     ttyp1        roam131-134.stud Tue Feb 13 00:32 - 03:47  (03:15)
+ice% llast p1[K[Ktty[K[K[K[K[K[K[K[K
+ice% llast p1[K0[K[Kttyp0
+ice% exit
+exit
+
+script done on Wed Feb 14 12:21:10 2001
